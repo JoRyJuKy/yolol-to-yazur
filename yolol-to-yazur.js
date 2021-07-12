@@ -1,5 +1,3 @@
-//THIS FILE IS AN EXAMPLE FILE! it should NOT be used, rather the contents copy and pasted into the extension.json
-
 //this will NOT work right away, for best results run "npm init" and install Yazur from https://github.com/Azurethi/Yazur
 
 /* ########## CONFIG VARIABLES ########## */
@@ -45,7 +43,7 @@ networks.forEach(item => {
     })
 })
 
-for(i=0; i < ticksToExecute; i++) {
+for(let i=0; i < ticksToExecute; i++) {
     main.forEach(item=>{
         item.networkManager.queueTick()
     })
