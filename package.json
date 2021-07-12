@@ -1,0 +1,48 @@
+{
+	"name": "yolol-to-yazur",
+	"displayName": "Yolol To Yazur",
+	"description": "converts yolol files to a yazur file you can execute",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:yolol-to-yazur.convert",
+		"onCommand:yolol-to-yazur.convert-and-run"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "yolol-to-yazur.convert",
+				"title": "Convert YOLOL to Yazur"
+			},
+			{
+				"command": "yolol-to-yazur.convert-and-run",
+				"title": "Convert YOLOL to Yazur and run (experimental)"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.58.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "14.x",
+		"eslint": "^7.27.0",
+		"glob": "^7.1.7",
+		"mocha": "^8.4.0",
+		"typescript": "^4.3.2",
+		"vscode-test": "^1.5.2"
+	},
+	"dependencies": {
+		"vscode": "^1.1.37"
+	}
+}
