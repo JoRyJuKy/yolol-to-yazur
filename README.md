@@ -6,4 +6,4 @@ each .yolol file will be treated as an individual chip, and each .yololmem file 
 
 report any bugs to jory#7000 or submit an issue on github at: 
 
-huge thanks to Azurethi#0789 for making Yazur and allowing me to release this plugin
+huge thanks to Azurethi#0789 for making Yazur (https://github.com/Azurethi/Yazur) and allowing me to release this plugin

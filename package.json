@@ -1,6 +1,7 @@
 {
 	"name": "yolol-to-yazur",
 	"displayName": "Yolol To Yazur",
+	"publisher": "JoRyJuKy",
 	"description": "converts yolol files to a yazur file you can execute",
 	"version": "0.0.1",
 	"engines": {
