@@ -83,3 +83,4 @@ main.forEach(item=>{
     })
 })
 fs.writeFileSync("./yolol-to-yazur-output.md", outputstring, {encoding:"utf-8"})
+console.log("Yazur: https://github.com/Azurethi/Yazur")

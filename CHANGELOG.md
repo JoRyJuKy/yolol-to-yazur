@@ -6,3 +6,6 @@ All notable changes to the "yolol-to-yazur" extension will be documented in this
 
 ## [1.0.0]
  - Initial Release
+
+## [1.0.1]
+ - Change how yolol-to-yazur.js is read
