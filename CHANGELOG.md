@@ -9,3 +9,6 @@ All notable changes to the "yolol-to-yazur" extension will be documented in this
 
 ## [1.0.1]
  - Change how yolol-to-yazur.js is read
+
+## [1.0.2]
+ - Revert how yolol-to-yazur.js is read, was causing an error. 
