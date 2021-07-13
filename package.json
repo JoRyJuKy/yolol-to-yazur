@@ -3,7 +3,7 @@
 	"displayName": "Yolol To Yazur",
 	"publisher": "JoRyJuKy",
 	"description": "converts yolol files to a yazur file you can execute",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"engines": {
 		"vscode": "^1.58.0"
 	},
