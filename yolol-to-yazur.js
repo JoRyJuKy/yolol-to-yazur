@@ -6,7 +6,7 @@ const ticksToExecute = 20 //Number of YOLOL ticks to execute, must be positive i
 
 /* ########## CONFIG VARIABLES ########## */
 
-const Yazur = require("./Yazur")
+const Yazur = require("./yazur")
 const fs = require('fs')
 const path = require('path')
 const { yololPath, networks } = require("./yolol-to-yazur.json")
