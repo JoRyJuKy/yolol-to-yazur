@@ -15,3 +15,6 @@ All notable changes to the "yolol-to-yazur" extension will be documented in this
 
 ## [1.0.3]
  - Change how yolol-to-yazur.js is read (hopefully works this time)
+
+## [1.0.4]
+ - Add input box to specify how many ticks Yazur should execute
